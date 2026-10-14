@@ -1,0 +1,23 @@
+# Compiled class files & build artifacts
+bin/
+*.class
+
+# Runtime files generated inside replica directories (keep directory structure)
+Replica_*/*
+!Replica_*/.gitkeep
+
+# Temporary test files
+*.dat
+*.tmp
+
+# IDE / Editor configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Operating System files
+.DS_Store
+Thumbs.db
